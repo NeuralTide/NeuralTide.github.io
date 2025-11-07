@@ -1,0 +1,282 @@
+.content_box{
+    z-index: 2;
+    background-image: url("https://static.wikia.nocookie.net/beck-the-schizo/images/f/fa/Jaycup.png/revision/latest/smart/width/250/height/250?cb=20250526151225");
+    padding: 20px;
+    color: white;
+    border-style:solid;
+    border-color: red;
+    border-width: 0px;
+    border-radius: 40px;
+    animation-name: box_animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    transition:
+        background-image 3s;
+}
+.spyware-div{
+    background-color: rgba(0, 0, 0, .8);
+    position:absolute;
+    z-index: 20;
+    width: 1000px;
+    left: 0%;
+    top: 0%;
+}
+.spyware{
+    color: red;
+    position: relative;
+}
+.ban{
+    animation-name: ban-a;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+@keyframes ban-a {
+    0%{
+        transform: rotate(360deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    
+}
+
+.trump{
+    z-index: -20;
+    animation-name: trump-a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: fixed;
+    left: 10%;
+    bottom: 20%;
+}
+.chungus{
+    z-index: 4;
+    position: relative;
+}
+@keyframes trump-a {
+    0%{
+        transform: scaleY(.5);
+        transform: scaleX(.1);
+        left:10%;
+    }   
+    20%{
+            transform: scaleY(1.0);
+            transform:scaleX(2);
+    } 
+    40%{
+            transform: scaleY(0.5);
+            left:60%;
+    }
+    50%{
+        transform:scaleY(1);
+        left: 10%;
+       
+    }
+    60%{
+            transform: scaleY(0.5);
+            right: 40%
+    }
+    70%{
+        transform:scaleY(1);
+         transform: scaleY(-0.5);
+        left: -500px;
+    }
+}
+
+.glow{
+    z-index: 0;
+    border-radius: 400px;
+    background-image: radial-gradient(circle, rgb(255, 238, 139), transparent 70%);
+    width: 900px;
+    height: 900px;
+    position: absolute;
+    animation-name: box_animation-glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+.b-jumbo{
+    z-index: 5;
+    background-color: red;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 100px;
+    margin:0;
+    padding:0;
+}
+.fe {
+    position: absolute;
+    z-index: 10;
+    bottom: 0;
+    right: 0;
+}
+.overlay{
+    z-index: 20;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    background-image: radial-gradient(circle, red, transparent, 70%);
+}
+.hf{
+    margin:0;
+    padding:0;
+    background-color: blackr;
+    color: black;
+    font-size: 100px;
+    animation-name:hf-a;
+    position:  relative;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    bottom: 20%;
+    overflow:hidden;
+    width: 6000px;
+    
+}
+@keyframes hf-a {
+    0%{
+        right: -1000px 
+    }
+    50%{right: 3000px}
+    100%{
+        right: -1000px 
+    }
+}
+.nuke{
+    position: absolute;
+    bottom: 0%;
+    width: 900px;
+    z-index: -30;
+    animation-name: nuke-a;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes nuke-a {
+    0%{
+           width: 0px;
+
+    }
+    100%{
+           width: 1000px;
+    }
+}
+.text-1{
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-text-stroke: 2px black;
+    font-size: 70px;
+    animation-name: text-1-a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.virustotal{
+    color:red;
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+    background-color: black;
+}
+@keyframes text-1-a {
+    0%{
+        transform: rotate(0);
+        font-style:oblique;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    50%{
+        transform: rotate(360deg);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+     100%{
+        font-family: monospace;
+        font-style: italic;
+        transform: rotate(0);
+    }
+    
+}
+
+
+
+body{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.hellotech.com/blog/wp-content/uploads/2016/11/bluescreenofdeath-min.jpg");
+  
+}
+
+@keyframes box_animation {
+    0% {
+        border-radius: 40px;
+        width: 0%;
+        background-color: rgb(73, 0, 0);
+        bottom: 20%;
+    }
+    50% {
+        border-radius: 10px;
+        width: 50%;
+       background-color: black;
+       border-color: red;
+        bottom: 80%;
+       
+    }
+    75% {
+        border-radius: 40px;
+        width: 25%;
+       background-color: rgb(255, 0, 0);
+       border-color: black;
+      
+    }
+     100% {
+        border-radius: 40px;
+        width: 50%;
+        background-color: rgb(73, 0, 0);
+       border-color: black;
+       bottom: 20%;
+    }
+}
+.virustotal{
+    position: absolute;
+    bottom: 50%;
+}
+.audiochina{
+    z-index: 20;
+    position:absolute;
+    bottom: 20%;
+}
+
+@keyframes box_animation-glow {
+    0% {
+       
+      
+       
+        bottom: 5%;
+    }
+    50% {
+       
+       
+     
+        bottom: 70%;
+       
+    }
+
+     100% {
+     
+      
+       bottom: 5%;
+    }
+}
+
